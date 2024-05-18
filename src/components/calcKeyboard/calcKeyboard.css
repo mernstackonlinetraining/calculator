@@ -1,0 +1,12 @@
+.calcKeyboard {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(27, 186, 178);
+}
+
+.btnRow {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    padding: 5px;
+}

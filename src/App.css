@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.container p {
+  max-width: 700px;
+  font-size: 1.2em;
+  line-height: 28px;
+  text-align: center;
+  margin: 10px;
+}
+
+.calcCard {
+  width: 400px;
+  height: 60vh;
+}
+
+@media screen and (max-width:700px) {
+  .calcCard {
+    width: 80%;
+  }
+}
